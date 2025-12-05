@@ -1,5 +1,4 @@
 import Link from "next/link";
-
 export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 via-white to-slate-50">
@@ -358,10 +357,19 @@ export default function Home() {
             </div>
             <div>
               <h4 className="mb-4 font-semibold">Get in Touch</h4>
-              <p className="text-slate-400">
+              <p className="mb-4 text-slate-400">
                 Ready to transform your business with data? Let&apos;s connect
                 and explore how we can help you grow.
               </p>
+              <div className="space-y-2">
+                <p className="font-medium text-slate-300">Swachaal Sapkota</p>
+                <a
+                  href="mailto:swachhals1549@gmail.com"
+                  className="text-slate-400 transition-colors hover:text-white"
+                >
+                  swachhals1549@gmail.com
+                </a>
+              </div>
             </div>
           </div>
           <div className="border-t border-slate-800 pt-8 text-center text-slate-400">
